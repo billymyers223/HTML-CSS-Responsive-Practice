@@ -220,21 +220,21 @@ Desktop-first scaling down = max-width
 /* Phones */
 @media(max-width:500px){
     nav{
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content: center;
     }
     .links{
-        width: 100%;
+        width:100%;
     }
     .logo{
-        width: 30%;
+        width:30%;
     }
-    /* about section styles */
+    /*about section styles*/
     #about{
-        background-image: none;
-        background-color: #dddee0;
+        background-image:none;
+        background-color:#dddee0;
         justify-content: center;
-        height: auto;
+        height:auto;
     }
     #about div{
         margin:0;
@@ -242,13 +242,12 @@ Desktop-first scaling down = max-width
     }
     .container{
         justify-content: center;
-        
     }
-    .bgimg .shopTxt{
-        width: 90%;
+    .bgimg, .shopTxt{
+        width:90%;
     }
     .bgimg{
-        height: 50vh;
+        height:50vh;
     }
     .one{
         order:1;
@@ -260,7 +259,7 @@ Desktop-first scaling down = max-width
         order:3;
     }
     .four{
-        order: 4;
+        order:4;
     }
     .five{
         order:5;
@@ -269,10 +268,10 @@ Desktop-first scaling down = max-width
         order:6;
     }
     .left, .right{
-        width: 100%;
+        width:100%;
     }
     footer h2{
-        order:1;
+        order: 1;
     }
     .left{
         order: 3;
@@ -282,10 +281,9 @@ Desktop-first scaling down = max-width
     }
     .copyright{
         order:4;
-        text-align: center;
+        text-align:center;
     }
     .copyright p{
         margin:0;
     }
-    
 }
