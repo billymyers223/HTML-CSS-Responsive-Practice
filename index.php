@@ -1,3 +1,3 @@
 <?php
-include_once('HTML-CSS-RESPONSIVE-PRACTICE')
+include_once('HTML-CSS-Responsive-Practice')
 ?>
